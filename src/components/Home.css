@@ -1,0 +1,76 @@
+/* src/components/Home.css */
+
+.home-section {
+  background-color: #b9366e;
+  color: white;
+  min-height: 100vh;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c895b3;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.home-content {
+  padding: 4rem 2rem;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+  background-color: white;
+  padding: 0.5rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.line {
+  height: 2px;
+  width: 50px;
+  background-color: white;
+}
+
+.checkmark {
+  font-size: 1.2rem;
+}

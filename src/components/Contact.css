@@ -1,0 +1,42 @@
+/* src/components/Contact.css */
+
+.contact-section {
+  background-color: #da89ac;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 50px 0;
+}
+
+.contact-container h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.contact-info a {
+  color: #1da1f2;
+  text-decoration: none;
+}
+
+.contact-icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contact-icons i {
+  font-size: 36px;
+  color: #ffffff;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.contact-icons i:hover {
+  transform: scale(1.2);
+  color: #1da1f2;
+}
